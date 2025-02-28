@@ -1,0 +1,6 @@
+@MemosApp_HostAddress = http://localhost:5169
+
+GET {{MemosApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
