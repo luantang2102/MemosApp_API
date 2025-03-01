@@ -16,7 +16,7 @@ namespace MemosApp.Models
         public int UserId { get; set; }
 
         // Navigation props
-        public required User User { get; set; }
+        public User User { get; set; } = null!;
     }
 }   
     

@@ -53,7 +53,7 @@ namespace MemosApp.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Posts");
+                    b.ToTable("Posts", (string)null);
                 });
 
             modelBuilder.Entity("MemosApp.Models.User", b =>
@@ -77,7 +77,7 @@ namespace MemosApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("MemosApp.Models.Post", b =>
